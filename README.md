@@ -14,7 +14,7 @@ https://currencylayer.com (you'll have to sign up for a free account)
 ## Hints
 - Use any gem or lib you want
 - Any future from Ruby 2.x
-- Any future from PostgreSQL
+- Any feature from PostgreSQL
 ​
 ## Discussion
 | Task component | Possible questions |
