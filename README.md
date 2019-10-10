@@ -8,8 +8,8 @@ https://currencylayer.com (you'll have to sign up for a free account)
 2. Provide a Ruby script that fetches the data and stores it in the table
 3. Build a simple Website, which allows us to input currency values and translate them accordingly
 4. Make sure we have the most recent rates every morning at 8:00 CET
-5. When selecting rates, show a graph with the daily rates of the last weeks (add appropriate seed data to make it work)
-6. 
+5. When selecting rates, show a graph with the daily rates of the last weeks (feel free to use rates.json seed file)
+6. BONUS: Add money transactions to the database, fill with transactions (https://dbfiddle.uk/?rdbms=postgres_10&fiddle=172a01afd775c3e4690e0d68d0fdfcf1) and write a query that gives us a breakdown of spend in CHF by each user. Use the latest exchange rate smaller or equal to the transaction date.
 ​
 ## Constraints
 - Use `money-currencylayer-bank` gem
@@ -19,17 +19,3 @@ https://currencylayer.com (you'll have to sign up for a free account)
 - Any feature from Ruby 2.x
 - Any feature from PostgreSQL
 ​
-## Discussion
-| Task component | Possible questions |
-|--|--|
-| Add `money-currencylayer-bank` gem via bundler | What is bundler ? |
-|  | What is Gemfile ? |
-|  | Should Gemfile.lock be committed or not ? |
-| Use the Gem to fetch current currency rates for EUR->USD, USD->EUR ,CHF->EUR and EUR->CHF  | |
-| Define a PSQL table to store the rates |
-| | Currencies as string, Enum or create an String -> ID mapping ? | 
-| | When using Enum, what are the advantages and disadvantages of each type? |
-| | What PSQL data type do you use for money? Float or Decimal? Why? |
-| Storing rates | what Gem to use ? |
-| | SQL injection ?! |
-| | SQL injection ?! |
