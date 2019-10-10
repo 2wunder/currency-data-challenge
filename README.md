@@ -9,7 +9,6 @@ https://currencylayer.com (you'll have to sign up for a free account)
 3. Build a simple Website, which allows us to input currency values and translate them accordingly
 4. Make sure we have the most recent rates every morning at 8:00 CET
 5. When selecting rates, show a graph with the daily rates of the last weeks (feel free to use rates.json seed file)
-6. BONUS: Add money transactions to the database, fill with transactions (https://dbfiddle.uk/?rdbms=postgres_10&fiddle=172a01afd775c3e4690e0d68d0fdfcf1) and write a query that gives us a breakdown of spend in CHF by each user. Use the latest exchange rate smaller or equal to the transaction date.
 ​
 ## Constraints
 - Use `money-currencylayer-bank` gem
