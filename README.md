@@ -4,9 +4,12 @@ You need to fetch current currency rates for EUR and USD and EUR and CHF (both w
 https://currencylayer.com (you'll have to sign up for a free account)
 ​
 ## Goals
-- Define the table structure
-- Provide a Ruby script that fetches the data and stores it in the table
-- Build a simple Website, which allows to input currency values and translate them accordingly.
+1. Define an appropriate table structure
+2. Provide a Ruby script that fetches the data and stores it in the table
+3. Build a simple Website, which allows us to input currency values and translate them accordingly
+4. Make sure we have the most recent rates every morning at 8:00 CET
+5. When selecting rates, show a graph with the daily rates of the last weeks (add appropriate seed data to make it work)
+6. 
 ​
 ## Constraints
 - Use `money-currencylayer-bank` gem
@@ -27,5 +30,6 @@ https://currencylayer.com (you'll have to sign up for a free account)
 | | Currencies as string, Enum or create an String -> ID mapping ? | 
 | | When using Enum, what are the advantages and disadvantages of each type? |
 | | What PSQL data type do you use for money? Float or Decimal? Why? |
-| Store rates into this table | what Gem to use ? |
+| Storing rates | what Gem to use ? |
+| | SQL injection ?! |
 | | SQL injection ?! |
